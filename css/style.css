@@ -13,18 +13,8 @@ body a{
 	-moz-transition: 0.5s all;
 	-ms-transition: 0.5s all;
 }
-.blink {
-           color:red;
-           -webkit-animation: blink 1s step-end infinite;
-           animation: blink 1s step-end infinite
-         }
- 
-          @-webkit-keyframes blink,  .blink  {
-          67% { opacity: 0 }
-         }
- 
-         @keyframes blink, .blink {
-         67% { opacity: 0 }
+
+   
 
  ul{
 	padding: 0;
