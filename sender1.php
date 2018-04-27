@@ -33,7 +33,7 @@ $headers .= "Reply-To: $visitor_email \r\n";
 //Send the email!
 mail('balbirrajput1990@gmail.com',$email_subject,$email_body,$headers);
 //done. redirect to thank-you page.
-header('https://balbirtabashi.github.io/eduoracle/');
+header('Location:http://swechha.org');
 
 
 // Function to validate against any email injection attempts
