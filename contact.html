@@ -79,32 +79,27 @@
 					<div class="col-md-12 contact-left cont">
 						<div class="contct-info">
 							<h4>Contact Form</h4>
-							<form name="" action="sender1.php" method="post" class="">
-								<div class="row">
-									<div class="col-md-6 row-grid">
-									
-									<input name="name" type="text"  id="name" placeholder="Name">	
-									</div>
-										<div class="col-md-6 row-grid">
-											
-									<input name="text" type="email" id="email" placeholder="Email">
-									
-									</div>
-									<div class="clearfix"></div>
-								</div>
-								<div class="row">
-									<div class="col-md-12 row-grid">
-									<input name="phone" type="text" id="phone" placeholder="Phone No">
-									</div>
-										
-									<div class="clearfix"></div>
-								</div>
-								 <textarea name="message" rows="3"  id="message" placeholder="Message"></textarea>
-								<div class="text-center">
-								<input type="submit" class=" more_btn"  name="submit" value="Submit">
-								
-							</div>
-							</form>
+							<form name="" action="sender1.php" method="post" class="contact_form slideanim">
+				<div class="con-text">
+					<span>Your Name </span>		
+					<input name="name" type="text" class="form-control" id="fullname" placeholder="Name">					
+				</div>
+				
+				
+				<div class="con-text">
+				  <span>Email</span>		
+				  <input name="email" type="email" class="form-control" id="email" placeholder="Email">	
+				</div>
+				<div class="con-text">
+				  <span>Phone No</span>		
+				  <input name="phone" type="text" class="form-control" id="phone" placeholder="Phone No">
+				</div>
+				<div class="con-text">
+				  <span>Your Message</span>		
+				 <textarea name="message" rows="3" class="form-control" id="message" placeholder="Message"></textarea>
+				</div>
+				<input type="submit" class=" more_btn"  name="submit" value="Submit">
+			</form>
 						</div>
 					</div>
 				</div>
