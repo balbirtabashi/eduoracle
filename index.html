@@ -70,7 +70,7 @@
 		</div>
 	<!--header-->
 	     <div class="row scrollcontent">
-			<marquee behavior="scroll" direction="left">
+			<marquee behavior="scroll" direction="left" onMouseOver="this.stop()">
 			<p class="marquetxt">Powered By Tabashi Technology Pvt Ltd. All right Reserved 2018......</p> 
 			</marquee>
 		</div>
@@ -309,7 +309,15 @@
 					</div>
 				</div>
 			</div>
-			
+	<script type="text/javascript">
+		$(function() {
+    $('marquee').mouseover(function() {
+        $(this).attr('scrollamount',0);
+    }).mouseout(function() {
+         $(this).attr('scrollamount',5);
+    });
+});
+	</script>		
 
 
 <script src="js/jquery.min.js"></script>
